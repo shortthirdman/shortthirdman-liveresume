@@ -1,0 +1,16 @@
+# image: node:15.10.0
+
+# before_script:
+  # - node -v
+  # - npm ci
+
+# build:
+  # stage: build
+  # script:
+    # - npm run build --if-present
+
+# deploy:
+  # stage: deploy
+  # script:
+    # - cp CNAME dist/shortthirdman-liveresume
+    # - node_modules/.bin/surge .

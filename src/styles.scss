@@ -1,0 +1,77 @@
+// Font Awesome
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+// Bootstrap 4
+@import '~bootstrap/scss/bootstrap';
+
+// @import '~perfect-scrollbar/css/perfect-scrollbar.css';
+
+@import "./styles/variables";
+@import "./styles/aside";
+@import "./styles/buttons";
+@import "./styles/header";
+@import "./styles/layout";
+@import "./styles/main";
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow-x: hidden; overflow-y: auto; }
+
+
+.h-center {
+	display: flex;
+	justify-content: center;
+}
+
+.v-center {
+	display: flex;
+	align-items: center;
+}
+
+.vh-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.g-center {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.responsive-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+}
+
+.responsive-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: flex;
+}
+
+.drop-shadow {
+	filter: drop-shadow(2px 4px 8px #585858);
+}
+
+@page {
+  size: A4;
+  margin-top: 9mm;
+  margin-bottom: 8mm;
+  margin-left: 7mm;
+  margin-right: 7mm;
+}
+@media print {
+  body {
+      width: 780px;
+      overflow: hidden;
+  }
+  #container {
+      max-width: 780px;
+  }
+}
