@@ -2,11 +2,7 @@
 
 [![Travis (.org)](https://img.shields.io/travis/com/shortthirdman/shortthirdman-liveresume?color=blue&label=Travis%20CI&logo=travis)](https://travis.org/shortthirdman/shortthirdman-liveresume)
 [![LiveResume](https://img.shields.io/website?down_color=red&label=LiveResume&logo=angular&up_color=blue&up_message=online&url=https%3A%2F%2Fshortthirdman.surge.sh)](https://shortthirdman.surge.sh)
-[![Coverage](https://gitlab.com/shortthirdman/shortthirdman-liveresume/badges/master/coverage.svg?job=coverage&style=flat)](https://gitlab.com/shortthirdman/shortthirdman-liveresume)
-
-<!--
-[![coverage report](https://gitlab.com/shortthirdman/shortthirdman-liveresume/badges/master/coverage.svg)](https://gitlab.com/shortthirdman/shortthirdman-liveresume/-/commits/master)
-[![pipeline status](https://gitlab.com/shortthirdman/shortthirdman-liveresume/badges/master/pipeline.svg)](https://gitlab.com/shortthirdman/shortthirdman-liveresume/-/commits/master) -->
+[![GitHub license](https://img.shields.io/github/license/shortthirdman/shortthirdman-liveresume?color=blue&label=License)](https://github.com/shortthirdman/shortthirdman-liveresume/blob/main/LICENSE)
 
 Personal portfolio and resume website built on [Angular](https://angular.io/)
 
