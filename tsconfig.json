@@ -15,13 +15,21 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
+	"typeRoots": ["node_modules/@types"],
+	"types": ["node", "howler", "jasmine", "lodash", "chalk"],
     "lib": [
       "es2018",
 	  "es2017",
 	  "es2016",
 	  "es2015",
       "dom"
-    ]
+    ],
+	"paths": {
+      "@liveresume/core": ["src/app/common/*"],
+      "@liveresume/shared": ["src/app/shared/*"],
+      "@liveresume/pages": ["src/app/pages/*"],
+      "@liveresume/env": ["src/environments/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

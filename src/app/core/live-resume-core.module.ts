@@ -5,15 +5,12 @@ import { HighchartsHelper } from './helpers/highcharts.helper';
 
 @NgModule({
   declarations: [
-	HighchartsHelper
   ],
   imports: [
-    CommonModule,
-	HighchartsHelper
+    CommonModule
   ],
   exports: [
-	CommonModule,
-	HighchartsHelper
+	CommonModule
   ],
   providers: [ ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

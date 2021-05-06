@@ -15,6 +15,6 @@ export class GitHubInterceptor implements HttpInterceptor {
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     // return next.handle(request);
 	const API_KEY = '';
-	return next.handle(httpRequest.clone({ setHeaders: { API_KEY } }));
+	return next.handle(request.clone({ setHeaders: { API_KEY } }));
   }
 }

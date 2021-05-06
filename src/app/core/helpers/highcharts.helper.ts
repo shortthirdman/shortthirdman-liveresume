@@ -1,9 +1,9 @@
 import * as Highcharts from 'highcharts';
-import * as Exporting from 'highcharts/modules/exporting';
+// import * as Exporting from 'highcharts/modules/exporting';
 
 export class HighchartsHelper {
 	constructor() {
-		Exporting(Highcharts);
+		// Exporting(Highcharts);
 	}
 	
 	prepareCharts() {

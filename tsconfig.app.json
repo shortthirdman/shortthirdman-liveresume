@@ -2,7 +2,14 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": ["node", "howler", "jasmine", "lodash", "chalk"],
+	"baseUrl": "./",
+	"paths": {
+      "@liveresume/core": ["src/app/common/*"],
+      "@liveresume/shared": ["src/app/shared/*"],
+      "@liveresume/pages": ["src/app/pages/*"],
+      "@liveresume/env": ["src/environments/*"]
+    }
   },
   "files": [
     "src/main.ts",
